@@ -4,7 +4,7 @@ This application is deployed on Azure using Azure Functions.
 
 The model is trained using a collection of images from a source directory for detection and scanning the barcode.
 
-**Approach**
+**Approach:**
 - Take the image from the user.
 - Decode that image using pyzbar
 - Locate the barcode in the given image
@@ -14,6 +14,12 @@ The model is trained using a collection of images from a source directory for de
 - ROI crop and display the located barcode.
 
 **Output Format:**
+
 From the previous state the image is read as binary, then the standard UPC-A barcode rules are automatically applied to extract decimal numbers.
 
 Lastly, I also added a GUI feature in order to make the project user-friendly.
+
+**References:**
+https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Gradient_Sobel_Laplacian_Derivatives_Edge_Detection.php
+https://www.explainthatstuff.com/barcodescanners.html 
+https://docs.opencv.org/3.4.2/dd/d49/tutorial_py_contour_features.html
