@@ -20,6 +20,6 @@ From the previous state the image is read as binary, then the standard UPC-A bar
 Lastly, I also added a GUI feature in order to make the project user-friendly.
 
 **References:**
-https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Gradient_Sobel_Laplacian_Derivatives_Edge_Detection.php
-https://www.explainthatstuff.com/barcodescanners.html 
-https://docs.opencv.org/3.4.2/dd/d49/tutorial_py_contour_features.html
+- https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Gradient_Sobel_Laplacian_Derivatives_Edge_Detection.php
+- https://www.explainthatstuff.com/barcodescanners.html 
+- https://docs.opencv.org/3.4.2/dd/d49/tutorial_py_contour_features.html
